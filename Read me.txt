@@ -1,0 +1,21 @@
+Steps to run this file 
+Method 1: (One time Shutdown)
+1- Open the folder 'Virus'
+2- Open .bat file 'Shutdown'
+3- System will shutdown and restart again 
+
+Method 2: (Automatic Shutdown on every bootup)
+1- Open the folder 'Virus'
+2- Copy the file 'Shutdown'.bat
+2- Open Windows Command Prompt (Windows + R)
+3- Type 'shell:startup' and press Enter
+4- A folder will open
+5- Paste 'Shutdown'.bat in folder
+6- Restart Once - in 10s PC will shutdown
+
+
+Solution:-
+1- Restart system in safe mode
+2- run command 'Shutdown -a'
+3- Open Task Scheduler -> Registry (regedit), Startup Folder (shell:startup) 
+4- Delete file   
